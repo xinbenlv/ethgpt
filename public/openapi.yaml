@@ -17,6 +17,23 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/getTodosResponse'
+  /api/eth-gpt:
+    post:
+      operationId: resolveName
+      summary: Resolve the ENS name to address
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/resolveNameRequest'
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/resolveNameResponse'
   /api/create-todo:
     post:
       operationId: addTodo
@@ -71,3 +88,15 @@ components:
           items:
             type: string
           description: The list of todos.
+    resolveNameRequest:
+      type: object
+      properties:
+        ensName:
+          type: string
+          description: The ENS name we are trying to resolve.
+    resolveNameResponse:
+      type: object
+      properties:
+        address:
+          type: string
+          description: The Ethereum address of that requested ENS name resolves to.

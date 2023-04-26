@@ -1,11 +1,17 @@
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import { Todos } from "../../../lib/TodosClass";
+import { ethers } from 'ethers';
 
-export async function GET() {
-  console.log('Todos.getTodos(): ', Todos.getTodos());
+export async function POST(req: NextRequest) {
+  console.log('EthGpt POST');
+  const body = await req.json();
+  console.log('body: ', body);
+  const provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/544e1243adfe4560baa0d8f2853ad919");
+
+  const address = await provider.resolveName(body.ensName);
   return NextResponse.json(
     {
-      todos: Todos.getTodos(),
+      address: address,
     },
     {
       status: 200,
