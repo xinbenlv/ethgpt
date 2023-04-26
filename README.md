@@ -1,5 +1,7 @@
 # EthGPT: ChatGPT Plugin for Ethereum and EVM dApp / smart contract functionalities
 
+![demo](./public/demo.gif)
+
 EthGPT is an ChatGPT plugin written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.
 
 ## Contributor Guide
