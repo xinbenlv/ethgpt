@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: EthGPT
-  description: A plugin that allows the user to create and manage a TODO list using ChatGPT.
+  description: A plugin to bring Ethereum and EVM-chain based dApp and smart contract functionalities to ChatGPT.
   version: 'v1'
 servers:
   - url: https://api.ethgpt.dev
