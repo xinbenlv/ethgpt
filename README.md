@@ -1,8 +1,5 @@
-## Next.js Boilerplate for a simple ChatGPT Plugin
-
-This is essentially the JavaScript version of the Python app documented in the OpenAI Chat GPT docs.
-
-I originally had trouble getting the headers and cors working properly so I figured I'd document how to do this here.
+EthGPT: Ethereum and EVM dApp Functionality for ChatGPT
+EthGPT is an extension of the JavaScript version of the Python app documented in the OpenAI Chat GPT docs, providing Ethereum and EVM dApp functionalities for ChatGPT.
 
 ### Prerequisites
 
@@ -13,9 +10,9 @@ This app has no user interface, instead it's meant to use with GhatGPT's UI so t
 1. Clone the repo, install depdendencies:
 
 ```sh
-git clone git@github.com:dabit3/nextjs-chatgpt-starter.git
+git clone git@github.com:xinbenlv/ethgpt.git
 
-cd nextjs-chatgpt-starter
+cd ethgpt
 
 yarn # or npm install, pnpm
 ```
@@ -36,26 +33,9 @@ When prompted for your website domain, type in 'http://localhost:3000'
 
 ### Usage
 
-Ask for your list of todos:
+1. Go to ChatGPT and start a conversation with the bot you've set up.
 
-```sh
-what are my todos?
-# or anything like that
-```
-
-Add a todo:
-
-```sh
-add book flight to my todos
-```
-
-Summarize todos:
-
-```
-How many todos do I have left?
-```
-
-Or any other questions you might have.
+2. Ask the bot to do something, for example, `resolve the ENS xinbenlv.eth for me`.
 
 ### Configuration
 
