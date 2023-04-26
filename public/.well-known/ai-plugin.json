@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "http://localhost:3000/openapi.yaml",
+    "url": "https://api.ethgpt.dev/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "http://localhost:3000/logo.png",
+  "logo_url": "https://api.ethgpt.dev/logo.png",
   "contact_email": "ethgpt@zzn.im",
-  "legal_info_url": "https://ethgpt.xyz/legal"
+  "legal_info_url": "https://ethgpt.dev/legal"
 }
