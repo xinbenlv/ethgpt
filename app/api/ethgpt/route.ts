@@ -1,5 +1,4 @@
 import { NextResponse, NextRequest } from "next/server";
-import { Todos } from "../../../lib/TodosClass";
 import { ethers } from 'ethers';
 
 export async function POST(req: NextRequest) {

@@ -1,5 +1,6 @@
 {
-  "name": "next-gpt-plugin-starter",
+  "name": "eth-gpt",
+  "description": "EthGPT is an ChatGPT plugin written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

@@ -1,7 +1,8 @@
-EthGPT: Ethereum and EVM dApp Functionality for ChatGPT
-EthGPT is an extension of the JavaScript version of the Python app documented in the OpenAI Chat GPT docs, providing Ethereum and EVM dApp functionalities for ChatGPT.
+# EthGPT: ChatGPT Plugin for Ethereum and EVM dApp / smart contract functionalities
 
-### Prerequisites
+EthGPT is an ChatGPT plugin written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.
+
+## Contributor Guide
 
 This app has no user interface, instead it's meant to use with GhatGPT's UI so therefore you must have access to ChatGPT plugins, which at the moment are still in beta.
 
@@ -17,12 +18,10 @@ cd ethgpt
 yarn # or npm install, pnpm
 ```
 
-2. Run the server
+2. Run the server in dev mode
 
 ```sh
-npm run build
-
-npm start
+yarn dev
 
 # If you run this in dev mode, the memory may not persist well as the server will randomly restart sometimes
 ```
