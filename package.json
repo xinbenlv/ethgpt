@@ -1,8 +1,13 @@
 {
   "name": "eth-gpt",
   "description": "EthGPT is an ChatGPT plugin written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://ethgpt.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinbenlv/ethgpt"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +15,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
     "@types/cors": "^2.8.13",
     "@types/node": "18.15.11",
     "@types/react": "18.0.34",

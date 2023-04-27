@@ -1,8 +1,15 @@
-# EthGPT: ChatGPT Plugin for Ethereum and EVM dApp / smart contract functionalities
+# EthGPT
 
+EthGPT is an ChatGPT plugin (and template) written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.
+
+As of today OpenAI ChatGPT plugin is still alpha test only. To beging use it you could [apply to join the waitlist](https://openai.com/waitlist/plugins)
+
+## Usage Demo 
 ![demo](./public/demo.gif)
 
-EthGPT is an ChatGPT plugin written in Typescript to bring Ethereum and EVM-chain based dApp and smart contract functionalities.
+## Install Demo 
+
+![demo](./public/user-demo-v1.gif)
 
 ## Contributor Guide
 
