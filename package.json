@@ -17,7 +17,7 @@
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.15",
     "@types/cors": "^2.8.13",
-    "@types/node": "18.15.11",
+    "@types/node": "18.16.2",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "@types/uuid": "^9.0.1",
